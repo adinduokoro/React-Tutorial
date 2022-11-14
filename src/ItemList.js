@@ -1,7 +1,6 @@
-import LineItem from "./LineItem"
+import LineItem from './LineItem';
 
-const ItemsList = ({ items, handleCheck, handleDelete }) => {
-  
+const ItemList = ({ items, handleCheck, handleDelete }) => {
   return (
     <ul>
       {items.map((item) => (
@@ -16,4 +15,4 @@ const ItemsList = ({ items, handleCheck, handleDelete }) => {
   )
 }
 
-export default ItemsList
+export default ItemList
